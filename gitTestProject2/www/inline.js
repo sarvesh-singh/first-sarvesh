@@ -1,5 +1,6 @@
 //Sample code for Hybrid REST Explorer
 //test comment
+// another test comment
 function regLinkClickHandlers() {
     var $j = jQuery.noConflict();
     var logToConsole = cordova.require("salesforce/util/logger").logToConsole;
