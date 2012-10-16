@@ -25,7 +25,6 @@
 		9A0BFDAB162D6CAD00A3E141 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9A0BFDA9162D6CAD00A3E141 /* InfoPlist.strings */; };
 		9A0BFDAD162D6CAD00A3E141 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0BFDAC162D6CAD00A3E141 /* main.m */; };
 		9A0BFDAF162D6CAD00A3E141 /* gitTestProject2-Prefix.pch in Resources */ = {isa = PBXBuildFile; fileRef = 9A0BFDAE162D6CAD00A3E141 /* gitTestProject2-Prefix.pch */; };
-		9A0BFDCB162D6CAE00A3E141 /* SFTestRunnerPlugin.js in Resources */ = {isa = PBXBuildFile; fileRef = 9A0BFDCA162D6CAE00A3E141 /* SFTestRunnerPlugin.js */; };
 		9A0BFDCD162D6CAE00A3E141 /* SalesforceHybridSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A0BFDCC162D6CAE00A3E141 /* SalesforceHybridSDK.framework */; };
 		9A0BFDCF162D6CAE00A3E141 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A0BFDCE162D6CAE00A3E141 /* libz.dylib */; };
 		9A0BFDD3162D6CAE00A3E141 /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A0BFDD2162D6CAE00A3E141 /* icon-72.png */; };
@@ -42,6 +41,7 @@
 		9A0BFDED162D6CAE00A3E141 /* Cordova.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A0BFDEC162D6CAE00A3E141 /* Cordova.plist */; };
 		9A0BFDEF162D6CAF00A3E141 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9A0BFDEE162D6CAF00A3E141 /* Settings.bundle */; };
 		9A0BFDF1162D6CAF00A3E141 /* CordovaResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9A0BFDF0162D6CAF00A3E141 /* CordovaResources.bundle */; };
+		9A0BFDF8162D6CC100A3E141 /* www in Resources */ = {isa = PBXBuildFile; fileRef = 9A0BFDF7162D6CC100A3E141 /* www */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -77,30 +77,6 @@
 		9A0BFDAA162D6CAD00A3E141 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9A0BFDAC162D6CAD00A3E141 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9A0BFDAE162D6CAD00A3E141 /* gitTestProject2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gitTestProject2-Prefix.pch"; sourceTree = "<group>"; };
-		9A0BFDB1162D6CAE00A3E141 /* bootconfig.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = bootconfig.js; sourceTree = "<group>"; };
-		9A0BFDB2162D6CAE00A3E141 /* bootstrap.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = bootstrap.html; sourceTree = "<group>"; };
-		9A0BFDB3162D6CAE00A3E141 /* cordova-1.8.1.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "cordova-1.8.1.js"; sourceTree = "<group>"; };
-		9A0BFDB4162D6CAE00A3E141 /* forcetk.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = forcetk.js; sourceTree = "<group>"; };
-		9A0BFDB5162D6CAE00A3E141 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
-		9A0BFDB6162D6CAE00A3E141 /* inline.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = inline.js; sourceTree = "<group>"; };
-		9A0BFDB9162D6CAE00A3E141 /* ajax-loader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ajax-loader.png"; sourceTree = "<group>"; };
-		9A0BFDBA162D6CAE00A3E141 /* icon-search-black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-search-black.png"; sourceTree = "<group>"; };
-		9A0BFDBB162D6CAE00A3E141 /* icons-18-black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons-18-black.png"; sourceTree = "<group>"; };
-		9A0BFDBC162D6CAE00A3E141 /* icons-18-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons-18-white.png"; sourceTree = "<group>"; };
-		9A0BFDBD162D6CAE00A3E141 /* icons-36-black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons-36-black.png"; sourceTree = "<group>"; };
-		9A0BFDBE162D6CAE00A3E141 /* icons-36-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons-36-white.png"; sourceTree = "<group>"; };
-		9A0BFDBF162D6CAE00A3E141 /* jquery-1.6.2.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "jquery-1.6.2.js"; sourceTree = "<group>"; };
-		9A0BFDC0162D6CAE00A3E141 /* jquery-1.6.2.min.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "jquery-1.6.2.min.js"; sourceTree = "<group>"; };
-		9A0BFDC1162D6CAE00A3E141 /* jquery.mobile-1.0b2.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = "jquery.mobile-1.0b2.css"; sourceTree = "<group>"; };
-		9A0BFDC2162D6CAE00A3E141 /* jquery.mobile-1.0b2.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "jquery.mobile-1.0b2.js"; sourceTree = "<group>"; };
-		9A0BFDC3162D6CAE00A3E141 /* jquery.mobile-1.0b2.min.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = "jquery.mobile-1.0b2.min.css"; sourceTree = "<group>"; };
-		9A0BFDC4162D6CAE00A3E141 /* jquery.mobile-1.0b2.min.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "jquery.mobile-1.0b2.min.js"; sourceTree = "<group>"; };
-		9A0BFDC5162D6CAE00A3E141 /* qunit.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = qunit.css; sourceTree = "<group>"; };
-		9A0BFDC6162D6CAE00A3E141 /* qunit.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = qunit.js; sourceTree = "<group>"; };
-		9A0BFDC7162D6CAE00A3E141 /* SalesforceOAuthPlugin.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = SalesforceOAuthPlugin.js; sourceTree = "<group>"; };
-		9A0BFDC8162D6CAE00A3E141 /* SFHybridApp.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = SFHybridApp.js; sourceTree = "<group>"; };
-		9A0BFDC9162D6CAE00A3E141 /* SFSmartStorePlugin.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = SFSmartStorePlugin.js; sourceTree = "<group>"; };
-		9A0BFDCA162D6CAE00A3E141 /* SFTestRunnerPlugin.js */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SFTestRunnerPlugin.js; sourceTree = "<group>"; };
 		9A0BFDCC162D6CAE00A3E141 /* SalesforceHybridSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SalesforceHybridSDK.framework; sourceTree = "<group>"; };
 		9A0BFDCE162D6CAE00A3E141 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = /usr/lib/libz.dylib; sourceTree = DEVELOPER_DIR; };
 		9A0BFDD2162D6CAE00A3E141 /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-72.png"; path = "Resources/icons/icon-72.png"; sourceTree = "<group>"; };
@@ -118,6 +94,7 @@
 		9A0BFDEC162D6CAE00A3E141 /* Cordova.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Cordova.plist; sourceTree = "<group>"; };
 		9A0BFDEE162D6CAF00A3E141 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		9A0BFDF0162D6CAF00A3E141 /* CordovaResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CordovaResources.bundle; sourceTree = "<group>"; };
+		9A0BFDF7162D6CC100A3E141 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,12 +167,12 @@
 		9A0BFDA6162D6CAD00A3E141 /* gitTestProject2 */ = {
 			isa = PBXGroup;
 			children = (
+				9A0BFDF7162D6CC100A3E141 /* www */,
 				9A0BFDCC162D6CAE00A3E141 /* SalesforceHybridSDK.framework */,
 				9A0BFDCE162D6CAE00A3E141 /* libz.dylib */,
 				9A0BFDE3162D6CAE00A3E141 /* readme.md */,
 				9A0BFDEE162D6CAF00A3E141 /* Settings.bundle */,
 				9A0BFDF0162D6CAF00A3E141 /* CordovaResources.bundle */,
-				9A0BFDB0162D6CAE00A3E141 /* www */,
 				9A0BFDD0162D6CAE00A3E141 /* Resources */,
 				9A0BFDE5162D6CAE00A3E141 /* Classes */,
 				9A0BFDE9162D6CAE00A3E141 /* Plugins */,
@@ -214,53 +191,6 @@
 				9A0BFDEC162D6CAE00A3E141 /* Cordova.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		9A0BFDB0162D6CAE00A3E141 /* www */ = {
-			isa = PBXGroup;
-			children = (
-				9A0BFDB1162D6CAE00A3E141 /* bootconfig.js */,
-				9A0BFDB2162D6CAE00A3E141 /* bootstrap.html */,
-				9A0BFDB3162D6CAE00A3E141 /* cordova-1.8.1.js */,
-				9A0BFDB4162D6CAE00A3E141 /* forcetk.js */,
-				9A0BFDB5162D6CAE00A3E141 /* index.html */,
-				9A0BFDB6162D6CAE00A3E141 /* inline.js */,
-				9A0BFDB7162D6CAE00A3E141 /* jquery */,
-				9A0BFDC5162D6CAE00A3E141 /* qunit.css */,
-				9A0BFDC6162D6CAE00A3E141 /* qunit.js */,
-				9A0BFDC7162D6CAE00A3E141 /* SalesforceOAuthPlugin.js */,
-				9A0BFDC8162D6CAE00A3E141 /* SFHybridApp.js */,
-				9A0BFDC9162D6CAE00A3E141 /* SFSmartStorePlugin.js */,
-				9A0BFDCA162D6CAE00A3E141 /* SFTestRunnerPlugin.js */,
-			);
-			path = www;
-			sourceTree = "<group>";
-		};
-		9A0BFDB7162D6CAE00A3E141 /* jquery */ = {
-			isa = PBXGroup;
-			children = (
-				9A0BFDB8162D6CAE00A3E141 /* images */,
-				9A0BFDBF162D6CAE00A3E141 /* jquery-1.6.2.js */,
-				9A0BFDC0162D6CAE00A3E141 /* jquery-1.6.2.min.js */,
-				9A0BFDC1162D6CAE00A3E141 /* jquery.mobile-1.0b2.css */,
-				9A0BFDC2162D6CAE00A3E141 /* jquery.mobile-1.0b2.js */,
-				9A0BFDC3162D6CAE00A3E141 /* jquery.mobile-1.0b2.min.css */,
-				9A0BFDC4162D6CAE00A3E141 /* jquery.mobile-1.0b2.min.js */,
-			);
-			path = jquery;
-			sourceTree = "<group>";
-		};
-		9A0BFDB8162D6CAE00A3E141 /* images */ = {
-			isa = PBXGroup;
-			children = (
-				9A0BFDB9162D6CAE00A3E141 /* ajax-loader.png */,
-				9A0BFDBA162D6CAE00A3E141 /* icon-search-black.png */,
-				9A0BFDBB162D6CAE00A3E141 /* icons-18-black.png */,
-				9A0BFDBC162D6CAE00A3E141 /* icons-18-white.png */,
-				9A0BFDBD162D6CAE00A3E141 /* icons-36-black.png */,
-				9A0BFDBE162D6CAE00A3E141 /* icons-36-white.png */,
-			);
-			path = images;
 			sourceTree = "<group>";
 		};
 		9A0BFDD0162D6CAE00A3E141 /* Resources */ = {
@@ -366,7 +296,6 @@
 			files = (
 				9A0BFDAB162D6CAD00A3E141 /* InfoPlist.strings in Resources */,
 				9A0BFDAF162D6CAD00A3E141 /* gitTestProject2-Prefix.pch in Resources */,
-				9A0BFDCB162D6CAE00A3E141 /* SFTestRunnerPlugin.js in Resources */,
 				9A0BFDD3162D6CAE00A3E141 /* icon-72.png in Resources */,
 				9A0BFDD5162D6CAE00A3E141 /* icon.png in Resources */,
 				9A0BFDD7162D6CAE00A3E141 /* icon@2x.png in Resources */,
@@ -380,6 +309,7 @@
 				9A0BFDED162D6CAE00A3E141 /* Cordova.plist in Resources */,
 				9A0BFDEF162D6CAF00A3E141 /* Settings.bundle in Resources */,
 				9A0BFDF1162D6CAF00A3E141 /* CordovaResources.bundle in Resources */,
+				9A0BFDF8162D6CC100A3E141 /* www in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
